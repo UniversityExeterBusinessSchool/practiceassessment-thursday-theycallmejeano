@@ -67,6 +67,7 @@ end_search_last_digit = start_search_last_digit + len(end_word_my_id)
 
 my_list = [(start_search_first_digit, end_search_first_digit), (start_search_last_digit, end_search_last_digit)]
 print(my_list)
+# NOTE: response [(129, 136), (82, 87)]
 
 # # Find the positions of 'improved'
 # improved_start = customer_feedback.find("improved")
@@ -79,7 +80,7 @@ print(my_list)
 # Write your search code here and provide comments. 
 
 # Initialize an empty list to store (start, end) positions
-my_list = []
+# my_list = []
 
 ##########################################################################################################################################################
 # %%
@@ -135,7 +136,9 @@ print('Churn rate', get_customer_churn_rate(start_digit, end_digit))
 # NOTE: a churn rate of 65% in this period should be investigated for business performance, as this may affect revenues
 
 print('Average order value', get_average_order_value(end_digit, start_digit))
-##########################################################################################################################################################
+# NOTE: average order value
+
+# ############################################################################
 # %%
 # Question 3 - Regression
 # A retail store has collected data on seasonal sales and price changes. The table below shows different price levels and their corresponding demand.

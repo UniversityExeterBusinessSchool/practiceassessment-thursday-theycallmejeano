@@ -136,7 +136,7 @@ print('Churn rate', get_customer_churn_rate(start_digit, end_digit))
 # NOTE: a churn rate of 65% in this period should be investigated for business performance, as this may affect revenues
 
 print('Average order value', get_average_order_value(end_digit, start_digit))
-# NOTE: average order value
+# NOTE: average order value 0.65
 
 # ############################################################################
 # %%
